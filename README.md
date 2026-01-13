@@ -1,16 +1,21 @@
-# React + Vite
+# Invoice Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend invoice management dashboard built using **React + Vite** and **Tailwind CSS** as part of an internship assignment.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Display list of invoices with ID, customer name, amount, and status
+- Filter invoices by status (All, Paid, Pending, Overdue)
+- Search invoices by Invoice ID or Customer Name
+- Sort invoices by amount
+- Summary cards for total, paid, pending, and overdue invoices
+- Clean and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- JavaScript (ES6)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup Instructions
+```bash
+npm install
+npm run dev
